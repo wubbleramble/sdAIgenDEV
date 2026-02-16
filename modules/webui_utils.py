@@ -71,7 +71,7 @@ def _set_webui_paths(ui: str) -> None:
         'vae_dir': str(models_root / vae),
         'lora_dir': str(models_root / lora),
         'embed_dir': str(embed_root / embed),
-        'extension_dir': str(webui_root / extension),
+        'extension_dir': str(config_root / extension),
         'control_dir': str(models_root / control_dir),
         'upscale_dir': str(models_root / upscale),
         'output_dir': str(webui_root / output),
